@@ -2,7 +2,7 @@
 include 'head2.html';
 //recibiendo datos desde el index.PHP usando el metodo post
 //los datos se declaran con el simobolo $nombre_de_variable = $metodo[id_valor];
-$user= $_POST['username'];
+$user = $_POST['username'];
 $password = $_POST['password'];
 
 //mostrando los datos recibidos
